@@ -1,0 +1,72 @@
+.mobile-menu {
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  display: flex;
+}
+
+.mobile-submenu {
+  margin-left: 12px;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgrey;
+  /*display: flex;*/
+}
+.brandSlider {
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  margin-bottom: 25px;
+}
+.product-slider {
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+@media only screen and (max-width: 991px) {
+  .header2 {
+    display: none;
+  }
+  .slicknav_nav .slicknav_arrow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mobile-header {
+    display: none;
+  }
+}
